@@ -18,3 +18,4 @@ exports.getCurrentUser = async (req, res) => {
     res.status(403).send({ message: "Invalid or expired token" });
   }
 };
+
